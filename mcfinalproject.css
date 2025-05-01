@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    color: #efdccb;
+    font-family: "Roboto", sans-serif;
+    background-color: #86A69D; 
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100; 
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header_nav{
+    padding: 2rem 0;
+}
+.my_name{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 24px;
+}
+.portifolio{
+    font-size: 16px;
+    font-weight:lighter;
+}
+.pink_nav{
+    display: flex;
+    width: 1020px;
+    justify-content: center;
+    align-items: center;
+    gap: 149px;
+    background: #F28585;
+    border-radius: 4px;
+    position: absolute;
+    top: 144px;
+    right: 32px;
+}
+.navbar_link{
+    align-items: center;
+    
+}
+#introduction{
+    display: flex;
+    font-family: "playfair display";
+    font-style: italic;
+    width: 1689px;
+    height: 366px;
+    flex-shrink: 0;
+    top: 284px; 
+}
+.orange_box{
+    background-color: #F2B263;
+}
+.introduction_text{
+    font-size: 64px;
+}
+button{
+    display: flex;
+    width: 254px;
+    padding: 17px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background: #F6D0A0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+footer{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
